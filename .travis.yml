@@ -1,6 +1,6 @@
 language: Java
 deploy:
-	provider: releases
+  provider: releases
 	api_key:
 		secure: $GITHUB_TOKEN
 	file_glob: true
