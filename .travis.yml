@@ -4,7 +4,7 @@ deploy:
   api_key:
     secure: $GITHUB_TOKEN
   file_glob: true
-  file: src/*.jar
+  file: target/*.jar
   skip_cleanup: true
   on:
     tags: true
